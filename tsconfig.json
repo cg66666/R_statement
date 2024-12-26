@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react", // 或者 "react-jsx" 对于 React 17 及以上版本
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist"
+    // 如果你使用的是 ES Modules，则可以尝试设置为 "nodenext"
+    // "moduleResolution": "nodenext",
+    //   ...
+  },
+  "exclude": ["src/components"]
+}
